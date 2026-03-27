@@ -20,7 +20,10 @@ jobs:
         run: python scripts/verify.py
 
       - name: Print Demo Message
-      run: echo "Hello from GitHub Actions!"
+        run: echo "Hello from GitHub Actions!"
+
+      - name: Print Demo Message 2
+      run: echo "This is version 2 of my demo!"
 
       #- name: Run Validation
        # run: python scripts/validate.py
