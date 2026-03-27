@@ -19,5 +19,8 @@ jobs:
       - name: Run Verification
         run: python scripts/verify.py
 
+      - name: Print Demo Message
+      run: echo "Hello from GitHub Actions!"
+
       #- name: Run Validation
        # run: python scripts/validate.py
